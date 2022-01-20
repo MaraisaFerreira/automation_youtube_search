@@ -1,7 +1,6 @@
 from time import sleep
 from selenium import webdriver
 
-# edgedrive deve estar salvo na pp pasta do projeto ou passar outro path
 edge = webdriver.Edge(executable_path='msedgedriver.exe')
 
 edge.get('https://www.youtube.com/')
